@@ -56,13 +56,25 @@ hr {
     padding: 0 20px;
 }
 
-
-/*
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 800px) {
+    .container-fluid {
+        display: flexbox;
+        flex-direction: row;
+    }
+    .navbar {
+        background-color: #FFFFFF;
+    }
+    .img-logo {
+        opacity: .35;
+        float: left;
+        margin-right: 20px;
+        max-width: 50px;
+        width: 100%;
+    }
     .header-title {
-        position: relatve;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 270px;
     }
-    .header-text {
-        font-size: 3rem;
-    }
-}*/
+}
