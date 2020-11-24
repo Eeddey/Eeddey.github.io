@@ -27,11 +27,14 @@ hr {
     width: 100%;
 }
 
+.img-nav {
+    display: none;
+}
+
 .img-logo {
     text-align: center;
     max-width: 482px;
     width: 100%;
-    ;
 }
 
 
@@ -51,21 +54,25 @@ hr {
     padding: 0 20px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 999px) {
     .container-fluid {
         display: flexbox;
         flex-wrap: nowrap;
         flex-direction: row;
     }
-    .div-navbar {
-        flex: 1;
-        align-self: flex-start;
-    }
     .nav-item {
         background-color: #FFFFFF;
     }
+    .img-nav {
+        display: grid;
+        width: 50%;
+    }
+    .img-logo {
+        display: none;
+    }
     .header-title {
         flex: 1;
+        order: 2;
         max-width: 230px;
         align-self: flex-end;
     }
