@@ -83,6 +83,11 @@ hr {
 
 /* COPYRIGHT*/
 
+.information {
+    background-color: #707070;
+    padding: 7% 15%;
+}
+
 .footer-text {
     padding: 1%;
     text-align: center;
@@ -117,5 +122,16 @@ hr {
     }
     .img-logo {
         display: none;
+    }
+    .carousel {
+        margin: 20% auto;
+    }
+    footer {
+        position: fixed;
+        height: max-content;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin-bottom: 0px;
     }
 }
