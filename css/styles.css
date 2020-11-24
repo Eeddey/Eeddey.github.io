@@ -64,6 +64,7 @@ hr {
     background-color: #3D3D3D;
     height: 50%;
     text-align: center;
+    margin: 5% auto;
 }
 
 .carousel .carousel-item {
@@ -81,6 +82,12 @@ hr {
 
 
 /* COPYRIGHT*/
+
+.footer-text {
+    padding: 1%;
+    text-align: center;
+    color: #F2F2F2;
+}
 
 .copyright {
     background-color: #3D3D3D;
@@ -105,7 +112,7 @@ hr {
     /* Header Images */
     .img-nav {
         display: grid;
-        transform: translate(-75px);
+        transform: translate(-50px);
         width: 50%;
     }
     .img-logo {
