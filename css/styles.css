@@ -65,6 +65,7 @@ hr {
     }
     .img-nav {
         display: grid;
+        transform: translate(-40px);
         width: 50%;
     }
     .img-logo {
